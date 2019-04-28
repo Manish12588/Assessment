@@ -103,119 +103,119 @@ formatter.match({
   "location": "OpenRoboForm.RoboForm()"
 });
 formatter.result({
-  "duration": 7811996704,
+  "duration": 19187700843,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.validation_correct_page()"
 });
 formatter.result({
-  "duration": 45215233,
+  "duration": 183332478,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Title_Dropdown_Field()"
 });
 formatter.result({
-  "duration": 1310860241,
+  "duration": 1861388326,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Title_RadioButton()"
 });
 formatter.result({
-  "duration": 1160681697,
+  "duration": 1112783625,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.type_some_message_in_Message_text_field()"
 });
 formatter.result({
-  "duration": 1567612764,
+  "duration": 1827410947,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Comments_InputField()"
 });
 formatter.result({
-  "duration": 1500506805,
+  "duration": 1603064979,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.YourComments_InputField()"
 });
 formatter.result({
-  "duration": 1582760776,
+  "duration": 1833671907,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.SayITHere_InputField()"
 });
 formatter.result({
-  "duration": 1490241510,
+  "duration": 1349240396,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Resume_InputField()"
 });
 formatter.result({
-  "duration": 1649837152,
+  "duration": 1729797670,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Age_Checkbox()"
 });
 formatter.result({
-  "duration": 1698753663,
+  "duration": 1617075018,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.AdvertiesOnHomePage_Checkbox()"
 });
 formatter.result({
-  "duration": 1138138374,
+  "duration": 1103660529,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.MaritalStatus()"
 });
 formatter.result({
-  "duration": 2508767217,
+  "duration": 2279557247,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.TextFieldAgainstImage()"
 });
 formatter.result({
-  "duration": 1298225427,
+  "duration": 1282974787,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.MyID_InputFiled()"
 });
 formatter.result({
-  "duration": 1354232985,
+  "duration": 1311235138,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Income_Dropdow()"
 });
 formatter.result({
-  "duration": 1137287762,
+  "duration": 1157763417,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.Income_Radiobutton()"
 });
 formatter.result({
-  "duration": 1168872079,
+  "duration": 1114613436,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenRoboForm.click_on_Reset_button()"
 });
 formatter.result({
-  "duration": 1904896300,
+  "duration": 3944043756,
   "status": "passed"
 });
 });

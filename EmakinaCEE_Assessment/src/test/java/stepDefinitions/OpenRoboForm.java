@@ -16,6 +16,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import atu.testrecorder.ATUTestRecorder;
+import atu.testrecorder.exceptions.ATUTestRecorderException;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -29,6 +31,9 @@ public class OpenRoboForm {
 	Properties prop;
 	static String PropfilePath=System.getProperty("user.dir");
 	File file = new File(PropfilePath+"\\Inputs\\RoboForm_Input.properties");
+	
+	//To record the test execution
+	ATUTestRecorder recorder; 
 
 	@Given("^User should be present on the form page$")
 	public void RoboForm()
@@ -52,6 +57,20 @@ public class OpenRoboForm {
 		{
 			e.printStackTrace();
 		}
+		
+		//Start the recording of Execution
+		try 
+		{
+			recorder= new ATUTestRecorder("../EmakinaCEE_Assessment/Test-Output/", "ExecutionRecord", false);
+			recorder.start();
+		}
+		catch (ATUTestRecorderException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 		
 		String URL= prop.getProperty("URL");
 		System.setProperty("webdriver.chrome.driver", "../EmakinaCEE_Assessment/Library/chromedriver.exe");
@@ -196,6 +215,7 @@ public class OpenRoboForm {
 		driver.findElement(By.xpath("//input[@value='Reset']")).click();
 		Thread.sleep(1000);
 
+		recorder.stop();
 		driver.quit();
 	}
 
